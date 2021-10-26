@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.banner{
+    background: url(https://pro2-bar-s3-cdn-cf2.myportfolio.com/6c682fa170908759081d6021482ee35f/3c2f5684-277e-4175-a947-a429c7001b41_rw_1920.gif?h=60d6e0052ed70cd99d4bbbe42527bb91);
+    height: 250px;
+    padding: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: 0.6s;
+}
+.banner:hover{
+    transform: scale(1.2);
+}
+.gallary{
+    float: left;
+    width: 350px;
+    margin: 3%;
+    margin-left: 40px;
+    margin-right: auto;
+}
+.gallary img{
+    width: 94%;
+    height: 250px;
+}
+.content {
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.desc{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.gallaryContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
